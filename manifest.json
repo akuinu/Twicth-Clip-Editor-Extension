@@ -1,0 +1,24 @@
+{
+  "name": "Twitch Clips Editor Reloader",
+  "version": "1.1",
+  "description": "Gives a basic fature that clips page should arleady have",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "webNavigation",
+    "https://clips.twitch.tv/create"
+  ],
+  "content_scripts": [
+    {
+    "matches": ["https://clips.twitch.tv/create"],
+    "js": ["content.js"]
+    }
+  ], 
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2,
+  "icons": {
+    "128": "reloadclip.png" 
+    }
+}
