@@ -1,6 +1,6 @@
 {
   "name": "Twitch Clips Editor Reloader",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Gives a basic fature that clips page should arleady have",
   "permissions": [
     "activeTab",

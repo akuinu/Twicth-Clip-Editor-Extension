@@ -1,5 +1,6 @@
 let elt = document.createElement("script");
 elt.innerHTML = `var urlithing = document.querySelector('meta[property=\"og:url\"]')['content'];
+console.log(urlithing);
 let d = document.createElement('div');
 let p = document.createElement('p');
 let a = document.createElement('a');
